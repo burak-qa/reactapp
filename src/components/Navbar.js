@@ -1,10 +1,10 @@
 
 import React from 'react'
 
-const Navbar= () => {
+const Navbar= (props) => {
     return (
         <div>
-        <h2>Merhaba Dunya</h2>
+        <h2>{props.title}</h2>
         </div>
     )
 }

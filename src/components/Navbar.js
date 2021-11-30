@@ -1,10 +1,11 @@
 
 import React from 'react'
 
-export default function Navbar() {
+const Navbar= () => {
     return (
         <div>
-            <h3>User App</h3>
+        <h2>Merhaba Dunya</h2>
         </div>
     )
 }
+export default Navbar;

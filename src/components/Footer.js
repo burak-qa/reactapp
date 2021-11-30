@@ -25,7 +25,7 @@ export default class footer extends Component { // burada function yerine class 
     }
     render() {
         const test =35;
-        const isBurak= false;
+        const isBurak= true;
         return (
             <footer>
                 <ul>
@@ -44,7 +44,7 @@ export default class footer extends Component { // burada function yerine class 
                 </ul>
                 <div>
                 {
-                    isBurak ? <p>Kullanici kayitli</p> : <p>kullanici yok</p>
+                    isBurak && test<=40  ? <p>Kullanici kayitli</p> : <p>kullanici yok</p>
                 }
                 </div>
                 

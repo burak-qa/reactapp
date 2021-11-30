@@ -1,9 +1,10 @@
 
 import './App.css';
-import HeaderComponent from './components/header';
-import MainComponent from './components/main';
-import FooterComponent from './components/footer';
-import UserComponent from './components/user';
+import HeaderComponent from './components/Header';
+import MainComponent from './components/Main';
+import FooterComponent from './components/Footer';
+import UserComponent from './components/User';
+import Navbar from './components/Navbar';
 function App() {
   return (
   <div className='main'>
@@ -12,7 +13,9 @@ function App() {
     <MainComponent />
     <FooterComponent />
     <UserComponent/>
-
+      <hr/>
+      
+    <Navbar/>
   </div>
   );
 }

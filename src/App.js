@@ -12,10 +12,21 @@ function App() {
     <HeaderComponent />
     <MainComponent />
     <FooterComponent />
-    <UserComponent/>
+    <UserComponent
+    name='Burak'
+    salary='3500'
+    department='ICT'
+    city='Rotterdam'
+    />
+    <UserComponent
+    name='Deniz'
+    salary='4500'
+    department='ICT'
+    city='Den Haag'
+    />
       <hr/>
       
-    <Navbar/>
+    <Navbar title= "User App123"/>
   </div>
   );
 }

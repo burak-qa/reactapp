@@ -2,13 +2,15 @@ import React, { Component } from 'react'
 
 class user extends Component {
     render() {
+        //Destructing 
+        const {name, department, salary,city} = this.props;
         return (
             <div>
                 <ul>
-                    <li>Name: Burak</li>
-                    <li>Departman: ICT</li>
-                    <li>Salary: 3500</li>
-                    <li>City: Rotterdam</li>
+                    <li>Name:{name} </li>
+                    <li>Departman:{department}  </li>
+                    <li>Salary: {salary} </li>
+                    <li>City: {city} </li>
                 </ul>
             </div>
         )

@@ -17,6 +17,8 @@ function App() {
     salary='3500'
     department='ICT'
     city='Rotterdam'
+    
+    
     />
     <UserComponent
     name='Deniz'
